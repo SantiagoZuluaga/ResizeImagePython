@@ -11,6 +11,7 @@ if os.path.exists('ImagesToResize'):
     if len(files) != 0:
 
         for file in files:
+            print(file)
             #Each file (image) is opening and loading in Img
             Img = Image.open('./ImagesToResize/'+file)
             #Createing a new size
